@@ -1,0 +1,6 @@
+trabajo/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key

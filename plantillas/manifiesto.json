@@ -1,0 +1,43 @@
+{
+  "id": "AAAA-MM-DD-formato-NN",
+  "semana": "AAAA-Wnn",
+  "formato": "carrusel | post | historia",
+  "pilar": "educacion | posicionamiento | producto | aspiracional",
+  "tema": "",
+  "estado": "Propuesta",
+  "fechaPublicacion": { "dateTime": "AAAA-MM-DDT19:00:00", "timezone": "America/Argentina/Buenos_Aires" },
+  "caption": "",
+  "hashtags": [],
+  "usaPackaging": false,
+  "referenciaPackaging": null,
+  "imagenes": [
+    {
+      "orden": 1,
+      "archivo": "01-portada.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/AAAA-MM-DD-formato-NN/01-portada.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "",
+      "texto": "",
+      "alt": ""
+    }
+  ],
+  "metricool": {
+    "blogId": 7410898,
+    "red": "instagram",
+    "draft": true,
+    "autoPublish": false,
+    "postId": null,
+    "uuid": null,
+    "plannerUrl": null,
+    "claveIdempotencia": "AAAA-MM-DD-formato-NN",
+    "verificado": false
+  },
+  "verificaciones": {
+    "http200": null,
+    "contentTypePng": null,
+    "pngValido": null,
+    "dimensiones": null,
+    "revisionVisual": null
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-19-carrusel-01",
+  "semana": "2026-W43",
+  "formato": "carrusel",
+  "pilar": "educacion",
+  "tema": "Rutina simple; hidratación y luminosidad; ácido hialurónico + vitamina C",
+  "estado": "Borrador Metricool",
+  "referenciaAprobada": true,
+  "inmutable": true,
+  "fechaPublicacion": {
+    "dateTime": "2026-10-19T19:00:00",
+    "timezone": "America/Argentina/Buenos_Aires"
+  },
+  "caption": "¿Y si el secreto para cuidar tu piel no estuviera en usar cada vez más productos? ✨\nUna rutina de skincare no tiene por qué ser complicada.\nLa hidratación y la luminosidad son dos pilares para una piel que se ve y se siente bien. Y elegir los ingredientes adecuados puede ayudarte a simplificar tu rutina.\nEn ZAVE creemos en un cuidado facial simple, pensado para acompañarte todos los días.\nDeslizá hasta el final y descubrí nuestra propuesta. 🧡\nUna nueva forma de verte bien.\n#ZAVE #SkincareArgentina #CuidadoFacial #AcidoHialuronico #VitaminaC #RutinaFacial #AntiAge",
+  "hashtags": [
+    "#ZAVE",
+    "#SkincareArgentina",
+    "#CuidadoFacial",
+    "#AcidoHialuronico",
+    "#VitaminaC",
+    "#RutinaFacial",
+    "#AntiAge"
+  ],
+  "usaPackaging": true,
+  "referenciaPackaging": "instagram/2026-10-19-carrusel-01/05-producto-zave.png",
+  "imagenes": [
+    {
+      "orden": 1,
+      "archivo": "01-portada.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-19-carrusel-01/01-portada.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "01399f07925f08d89f1d0825e5a78b4f898176341ab7c81af4e9bee4fcfd8686",
+      "texto": "¿Y si tu piel no necesita más productos?"
+    },
+    {
+      "orden": 2,
+      "archivo": "02-rutina.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-19-carrusel-01/02-rutina.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "43d20127c2786a2c596bc99f2a7aaed1b3f4f66f90ee605c102f088831eac50e",
+      "texto": "Tal vez necesita una rutina más inteligente."
+    },
+    {
+      "orden": 3,
+      "archivo": "03-hidratacion-luminosidad.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-19-carrusel-01/03-hidratacion-luminosidad.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "edd04daa44e82744d3c8993f61269c4c16199f129caa655f9bf2cdab643d675a",
+      "texto": "Hidratación y luminosidad. Dos claves para tu piel."
+    },
+    {
+      "orden": 4,
+      "archivo": "04-hialuronico-vitamina-c.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-19-carrusel-01/04-hialuronico-vitamina-c.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "7af1171b59a326f9e2ea24b7ad3a2b424c212f9722eede1700647003e1899389",
+      "texto": "Ácido hialurónico + vitamina C."
+    },
+    {
+      "orden": 5,
+      "archivo": "05-producto-zave.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-19-carrusel-01/05-producto-zave.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "8bc8b264bf4bf22b09a4714ed286f26daca660aad3547d11aababd3705de8af1",
+      "texto": "Conocé el nuevo cuidado facial de ZAVE."
+    }
+  ],
+  "metricool": {
+    "blogId": 7410898,
+    "red": "instagram",
+    "draft": true,
+    "autoPublish": false,
+    "postId": 396049475,
+    "uuid": "-4821449865259040422",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7410898&openWithPostUuid=-4821449865259040422",
+    "claveIdempotencia": "2026-10-19-carrusel-01",
+    "verificado": true
+  },
+  "verificaciones": {
+    "http200": true,
+    "contentTypePng": true,
+    "pngValido": true,
+    "dimensiones": true,
+    "revisionVisual": "aprobada por la marca"
+  }
+}

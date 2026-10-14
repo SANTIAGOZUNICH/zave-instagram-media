@@ -1,0 +1,7 @@
+# Solo /instagram debe ser público. Documentación y datos internos quedan fuera del deploy.
+*.md
+manifiestos/
+referencias/
+plantillas/
+scripts/
+.github/
