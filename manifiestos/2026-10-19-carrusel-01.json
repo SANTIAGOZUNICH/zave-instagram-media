@@ -4,7 +4,7 @@
   "formato": "carrusel",
   "pilar": "educacion",
   "tema": "Rutina simple; hidratación y luminosidad; ácido hialurónico + vitamina C",
-  "estado": "Borrador Metricool",
+  "estado": "Publicada",
   "referenciaAprobada": true,
   "inmutable": true,
   "fechaPublicacion": {
@@ -73,13 +73,17 @@
   "metricool": {
     "blogId": 7410898,
     "red": "instagram",
-    "draft": true,
+    "draft": false,
     "autoPublish": false,
-    "postId": 396049475,
+    "postId": 396085138,
     "uuid": "-4821449865259040422",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7410898&openWithPostUuid=-4821449865259040422",
-    "claveIdempotencia": "2026-10-19-carrusel-01",
-    "verificado": true
+    "claveIdempotencia": "uuid:-4821449865259040422",
+    "verificado": true,
+    "postIdHistorico": [
+      396049475
+    ],
+    "nota": "El id cambia cada vez que Metricool modifica la publicación; el uuid se mantiene. Usar uuid como clave estable."
   },
   "verificaciones": {
     "http200": true,
@@ -87,5 +91,16 @@
     "pngValido": true,
     "dimensiones": true,
     "revisionVisual": "aprobada por la marca"
+  },
+  "publicacion": {
+    "modo": "manual (informado por la marca)",
+    "segunMetricool": {
+      "status": "PUBLISHED",
+      "detailedStatus": "Published",
+      "dateTime": "2026-10-14T14:01:00",
+      "timezone": "America/Argentina/Buenos_Aires"
+    },
+    "fechaPlanificadaOriginal": "2026-10-19T19:00:00",
+    "nota": "Publicada el 14/10/2026, antes de la fecha planificada del 19/10. Estado leído de Metricool el 2026-10-14."
   }
 }

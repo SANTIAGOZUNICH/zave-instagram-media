@@ -86,7 +86,7 @@ Hasta que el dueño apruebe el sistema, ninguna ejecución genera imágenes ni c
 ### Paso 8 — Crear el borrador en Metricool (con idempotencia)
 Metricool: marca Zave, `blogId 7410898`, solo `instagram` (@zave_ar).
 
-**Importante (verificado el 2026-10-14):** `getScheduledPosts` **no devuelve los borradores**. La consulta del 19/10/2026 devolvió una lista vacía aunque el borrador `396049475` existe. Por eso la idempotencia se apoya en el manifiesto del repo, no en Metricool.
+**Importante (observado el 2026-10-14, no confirmado en la documentación de Metricool):** `getScheduledPosts` parece **no devolver los borradores**. La consulta del 19/10/2026 devolvió una lista vacía mientras el borrador `396049475` existía; luego, ya publicada, la misma publicación apareció con otro `id` (`396085138`) y el mismo `uuid`. El `id` cambia cuando Metricool modifica la publicación; el `uuid` no: **la clave estable es el uuid**. Por eso la idempotencia se apoya en el manifiesto del repo, no en Metricool.
 
 Secuencia obligatoria:
 1. Leer el manifiesto. Si `metricool.postId` ya tiene valor o `estado` es `Borrador Metricool`, **no crear nada**: ir al paso 9 para verificar el existente.

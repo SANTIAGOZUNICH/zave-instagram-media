@@ -15,7 +15,7 @@ Registro permanente. **Se consulta antes de proponer ideas** y se actualiza en c
 
 | Fecha de pub. | Semana | Carpeta | Formato | Pilar | Tema | Estado | Metricool ID | Notas |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-19 19:00 | 2026-W43 | `instagram/2026-10-19-carrusel-01/` | Carrusel (5) | Educación + posicionamiento + producto | Rutina simple de skincare; hidratación y luminosidad; ácido hialurónico + vitamina C | Borrador Metricool | 396049475 | **Referencia aprobada de calidad y estética.** Creado 2026-10-14 con `draft: true`, `autoPublish: false` |
+| 2026-10-19 19:00 | 2026-W43 | `instagram/2026-10-19-carrusel-01/` | Carrusel (5) | Educación + posicionamiento + producto | Rutina simple de skincare; hidratación y luminosidad; ácido hialurónico + vitamina C | Publicada | 396085138 (antes 396049475) | **Referencia aprobada de calidad y estética.** Borrador creado el 2026-10-14 con `draft: true`, `autoPublish: false`. **Publicada manualmente por la marca**; Metricool la muestra como `PUBLISHED` con fecha 2026-10-14 14:01 (no el 19/10 planificado). uuid estable: `-4821449865259040422` |
 
 ## Ficha detallada: 2026-10-19-carrusel-01 (referencia)
 
