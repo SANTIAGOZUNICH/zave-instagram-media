@@ -113,14 +113,19 @@ La respuesta de creación incluye las imágenes que Metricool guardó. Comprobar
 
 ID de Metricool, estado, cantidad y orden de imágenes, fecha registrada, confirmación de `autoPublish: false`, advertencias o errores, cantidad de imágenes generadas con Gemini y costo estimado.
 
-## Ejecución programada (propuesta, NO activa)
+## Ejecución programada
 
-Estado actual: **no hay ningún disparador configurado**. Las opciones evaluadas y la recomendación se presentan al dueño de la marca para su aprobación; hasta entonces no se activa nada.
+Estado al 2026-10-15. **La automatización de extremo a extremo todavía no está comprobada.** Solo está verificado lo que se indica en `APROBACION.md`.
 
-| Opción | Cómo funciona | Secretos y permisos | Costo | Estado |
-|---|---|---|---|---|
-| **A. Tarea programada de Claude Code** (recomendada) | Una tarea programada con cron semanal que abre una sesión nueva en el entorno de Claude Code (`create_trigger` con `create_new_session_on_fire`) | Gemini y GitHub ya están conectados al entorno. Metricool debe figurar en la lista de conectores de la tarea (`connectors`). Red permitida: `vercel.app`, `generativelanguage.googleapis.com`, `static.metricool.com` | Uso de Claude Code incluido en el plan (límites de uso) + Gemini por imagen | Disponible. Sin tareas creadas al 2026-10-14 |
-| B. GitHub Actions | Un workflow `schedule` ejecuta un agente con la API de Anthropic | Requiere `ANTHROPIC_API_KEY`, `GEMINI_API_KEY` y credenciales de la API REST de Metricool como secretos del repo. El conector de Metricool no está disponible en Actions | API de Anthropic por tokens, aparte del plan, + Gemini | No configurada. Más secretos, más mantenimiento |
-| C. n8n | Un workflow con Schedule Trigger, llamadas HTTP a Gemini y a Metricool | Credenciales en n8n. No se pudieron inspeccionar desde esta sesión | Según el plan de n8n + Gemini | No evaluada a fondo |
+| Etapa | Cómo se ejecuta | Estado |
+|---|---|---|
+| Planificación semanal | Tarea programada de Claude Code, domingos 18:00 (hora de Buenos Aires), sesión nueva, con notificación por correo. Deja `propuestas/AAAA-Wnn.md` en la rama `contenido/AAAA-Wnn` | Ver `CONTENIDO-HISTORIAL.md` y la sesión de configuración |
+| Aprobación del calendario y del presupuesto | El dueño, antes de cualquier gasto | Sin automatizar |
+| Generación (Gemini), alojamiento y creación del borrador | Sesión de Claude Code con conector de Metricool. Una tarea creada desde una sesión **no** recibe conectores, así que hace falta una sesión persistente creada con ellos, o crear la tarea desde la interfaz de claude.ai | Pendiente de decisión y de aprobación de gasto |
+| Aprobación de cada pieza | Página privada (`APROBACION.md`) | Publicada, pendiente de prueba con clic |
+| Programación con `autoPublish: true` | La página, con la conexión de Metricool del dueño, solo en modo `LIVE` | Desactivada (`DRY_RUN`) |
 
-Diseño recomendado para la opción A: una tarea semanal (por ejemplo, domingos 18:00 hora de Buenos Aires) en modo `propuesta`, que deja `propuestas/AAAA-Wnn.md` en una rama, lo notifica y espera P1 en esa misma sesión. Los modos `generar` y `borradores` se disparan al aprobar. Antes de activarla en producción se hace **una ejecución de prueba en modo `propuesta`**, que no tiene costo, para comprobar que la sesión programada ve el repo, la red permitida y el conector de Metricool.
+Restricciones comprobadas del entorno:
+- Una tarea programada creada desde una sesión no puede recibir conectores («connectors no está disponible para esta organización»).
+- Las tareas ligadas a una sesión existente no admiten notificaciones por correo.
+- El correo de una tarea de sesión nueva es un resumen del resultado final de la corrida.

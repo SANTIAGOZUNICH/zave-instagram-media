@@ -9,6 +9,7 @@ Imágenes y sistema de producción de contenido de Instagram para **ZAVE** (@zav
 | `ZAVE-CONTENIDO.md` | Identidad de marca, tono, productos, criterios de diseño y restricciones |
 | `CONTENIDO-HISTORIAL.md` | Registro de ideas, publicaciones, fechas, formatos y estados |
 | `PROCEDIMIENTO-CONTENIDO.md` | Flujo reproducible: proponer, generar, revisar, alojar y crear borradores |
+| `APROBACION.md` | Mecanismo de aprobación: página privada, reglas de seguridad y estado de la verificación |
 | `CALENDARIO-EDITORIAL.md` | Esquema semanal y reglas de rotación |
 
 ## Estructura de carpetas
