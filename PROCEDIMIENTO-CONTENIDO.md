@@ -119,7 +119,7 @@ Estado al 2026-10-15. **La automatización de extremo a extremo todavía no est�
 
 | Etapa | Cómo se ejecuta | Estado |
 |---|---|---|
-| Planificación semanal | Tarea programada de Claude Code, domingos 18:00 (hora de Buenos Aires), sesión nueva, con notificación por correo. Deja `propuestas/AAAA-Wnn.md` en la rama `contenido/AAAA-Wnn` | Ver `CONTENIDO-HISTORIAL.md` y la sesión de configuración |
+| Planificación semanal | Tarea programada de Claude Code «ZAVE - Planificación semanal» (`trig_01Q6gPzQu2iyaTa9ttJZhrLe`), domingos 18:00 (hora de Buenos Aires), sesión nueva, con notificación por correo. Deja `propuestas/AAAA-Wnn.md` en la rama `contenido/AAAA-Wnn` y no gasta nada | Creada el 2026-10-15. Primera ejecución programada: domingo 18/10 (~18:06). Una corrida de prueba de solo lectura se hizo el 2026-10-15 (resultado en este documento, abajo) |
 | Aprobación del calendario y del presupuesto | El dueño, antes de cualquier gasto | Sin automatizar |
 | Generación (Gemini), alojamiento y creación del borrador | Sesión de Claude Code con conector de Metricool. Una tarea creada desde una sesión **no** recibe conectores, así que hace falta una sesión persistente creada con ellos, o crear la tarea desde la interfaz de claude.ai | Pendiente de decisión y de aprobación de gasto |
 | Aprobación de cada pieza | Página privada (`APROBACION.md`) | Publicada, pendiente de prueba con clic |
