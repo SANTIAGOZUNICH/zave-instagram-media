@@ -119,7 +119,7 @@ Estado al 2026-10-15. **La automatización de extremo a extremo todavía no est�
 
 | Etapa | Cómo se ejecuta | Estado |
 |---|---|---|
-| Planificación semanal | Tarea programada de Claude Code «ZAVE - Planificación semanal» (`trig_01Q6gPzQu2iyaTa9ttJZhrLe`), domingos 18:00 (hora de Buenos Aires), sesión nueva, con notificación por correo. Deja `propuestas/AAAA-Wnn.md` en la rama `contenido/AAAA-Wnn` y no gasta nada | Creada el 2026-10-15. Primera ejecución programada: domingo 18/10 (~18:06). Una corrida de prueba de solo lectura se hizo el 2026-10-15 (resultado en este documento, abajo) |
+| Planificación semanal | Tarea programada de Claude Code «ZAVE - Planificación semanal» (`trig_01Q6gPzQu2iyaTa9ttJZhrLe`), domingos 18:00 (hora de Buenos Aires), sesión nueva, con notificación por correo. Deja `propuestas/AAAA-Wnn.md` en la rama `contenido/AAAA-Wnn` y no gasta nada | Creada el 2026-10-15. Primera ejecución programada: domingo 18/10 (~18:06). Corrida de prueba del 2026-10-15: la sesión autónoma clonó el repositorio y leyó las guías, pero el push de la rama dio 403 (el repositorio no está autorizado como fuente de la tarea). Por eso el push es opcional y la propuesta completa viaja en el correo |
 | Aprobación del calendario y del presupuesto | El dueño, antes de cualquier gasto | Sin automatizar |
 | Generación (Gemini), alojamiento y creación del borrador | Sesión de Claude Code con conector de Metricool. Una tarea creada desde una sesión **no** recibe conectores, así que hace falta una sesión persistente creada con ellos, o crear la tarea desde la interfaz de claude.ai | Pendiente de decisión y de aprobación de gasto |
 | Aprobación de cada pieza | Página privada (`APROBACION.md`) | Publicada, pendiente de prueba con clic |
@@ -129,3 +129,5 @@ Restricciones comprobadas del entorno:
 - Una tarea programada creada desde una sesión no puede recibir conectores («connectors no está disponible para esta organización»).
 - Las tareas ligadas a una sesión existente no admiten notificaciones por correo.
 - El correo de una tarea de sesión nueva es un resumen del resultado final de la corrida.
+- Una sesión autónoma puede clonar `zave-instagram-media` en modo lectura, pero no puede empujar ramas (403). Para que las propuestas queden guardadas en el repo hay que agregar el repositorio como fuente de la tarea desde la interfaz de claude.ai, o guardarlas desde una sesión interactiva.
+- El aviso «MODO PRUEBA» no fue respetado en el primer turno de la corrida de prueba (empezó a preparar commits locales). Las reglas que no deben romperse se protegen con diseño (por ejemplo, el modo `DRY_RUN` de la página), no solo con instrucciones en el prompt.

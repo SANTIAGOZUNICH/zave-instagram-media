@@ -72,6 +72,7 @@ SHA-256 en hexadecimal de `JSON.stringify([caption, imagenes.map(i => i.sha256 |
 | Una sesión disparada sola puede leer y escribir la base de datos | Verificado (prueba con una tarea de un solo uso) |
 | Una tarea programada creada desde una sesión **no** recibe el conector de Metricool | Verificado (por eso la programación la hace la página, no una tarea) |
 | Una sesión creada desde otra sesión sí tiene Metricool, ArtifactData y `add_repo` | Verificado (lectura) |
+| Una sesión autónoma clona el repositorio y arma la propuesta semanal, pero no puede empujar ramas (403) | Verificado: la propuesta debe viajar en el correo |
 | La página llama a Metricool con la conexión del dueño (botón «Probar conexión», lectura) | **Pendiente: requiere un clic y aceptar el permiso** |
 | Aprobar en modo `DRY_RUN` sobre la pieza de prueba | **Pendiente: requiere un clic** |
 | `updateScheduledPost` convierte un borrador en programado con `autoPublish: true` | **Sin verificar** |
