@@ -76,5 +76,5 @@ SHA-256 en hexadecimal de `JSON.stringify([caption, imagenes.map(i => i.sha256 |
 | La página llama a Metricool con la conexión del dueño (botón «Probar conexión», lectura) | **Pendiente: requiere un clic y aceptar el permiso** |
 | Aprobar en modo `DRY_RUN` sobre la pieza de prueba | **Pendiente: requiere un clic** |
 | `updateScheduledPost` convierte un borrador en programado con `autoPublish: true` | **Sin verificar** |
-| Metricool publica el carrusel automáticamente en @zave_ar | **Sin verificar** |
+| Metricool publica el carrusel automáticamente en @zave_ar | **Verificado el 2026-10-26:** `createScheduledPost` con `autoPublish: true` publicó el carrusel 02 (https://www.instagram.com/p/De-fNyzCOjV/). Falta verificar la conversión borrador → programado con `updateScheduledPost` |
 | Llegada del correo de notificación a la casilla | **Pendiente de confirmación del dueño** |

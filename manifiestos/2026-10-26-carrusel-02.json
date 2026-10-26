@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-26-carrusel-02",
+  "formato": "carrusel",
+  "estado": "Publicada",
+  "pilar": "posicionamiento",
+  "tema": "Tu piel cambia. Tu forma de cuidarla también (pre-lanzamiento ZAVE Anti-Age)",
+  "publicacion": {
+    "modo": "Metricool autoPublish: true, orden directa del dueño; creada 2026-10-26 20:38 y publicada 20:41 (hora de Buenos Aires)",
+    "url": "https://www.instagram.com/p/De-fNyzCOjV/",
+    "isAiGenerated": true
+  },
+  "imagenes": [
+    {
+      "orden": 1,
+      "archivo": "01-tu-piel-cambia.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-26-carrusel-02/01-tu-piel-cambia.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "f67ae719ba498eb65ae79c99190443a934408fe1e731ebcecfa2cbf9049ecf1b"
+    },
+    {
+      "orden": 2,
+      "archivo": "02-no-necesitas-20.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-26-carrusel-02/02-no-necesitas-20.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "8c08b2ec1115d2d5eb05f35d090f608a8499054d5b40ee3aca6d97cd091a54a3"
+    },
+    {
+      "orden": 3,
+      "archivo": "03-sentirte-bien-hoy.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-26-carrusel-02/03-sentirte-bien-hoy.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "f15449828639931b11c8b40df19b3e1aa2530feefac8880ebd7b4f38fab2dbd9"
+    },
+    {
+      "orden": 4,
+      "archivo": "04-nueva-forma.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-26-carrusel-02/04-nueva-forma.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "de344f92a1ce8ad29e9c5cf74ffd8bfe669c700148b7d2a5128f53134f227a43"
+    },
+    {
+      "orden": 5,
+      "archivo": "05-tu-momento.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-10-26-carrusel-02/05-tu-momento.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "febd8919fa488d0b6e29c12c65b1cd87aceb3ba52f7cf4b0791ef8af13507faf"
+    }
+  ],
+  "metricool": {
+    "blogId": 7410898,
+    "red": "instagram",
+    "draft": false,
+    "autoPublish": true,
+    "postId": 407275061,
+    "uuid": "-1273399266196762934",
+    "estadoFinal": "PUBLISHED",
+    "claveIdempotencia": "uuid:-1273399266196762934",
+    "verificado": true
+  }
+}

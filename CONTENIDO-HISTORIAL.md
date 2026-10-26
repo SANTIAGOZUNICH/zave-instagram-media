@@ -16,6 +16,7 @@ Registro permanente. **Se consulta antes de proponer ideas** y se actualiza en c
 | Fecha de pub. | Semana | Carpeta | Formato | Pilar | Tema | Estado | Metricool ID | Notas |
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-19 19:00 | 2026-W43 | `instagram/2026-10-19-carrusel-01/` | Carrusel (5) | Educación + posicionamiento + producto | Rutina simple de skincare; hidratación y luminosidad; ácido hialurónico + vitamina C | Publicada | 396085138 (antes 396049475) | **Referencia aprobada de calidad y estética.** Borrador creado el 2026-10-14 con `draft: true`, `autoPublish: false`. **Publicada manualmente por la marca desde Instagram** (no desde Metricool), el 14/10/2026 en lugar del 19/10 planificado; Metricool la muestra como `PUBLISHED` (2026-10-14 14:01). **La autopublicación de Metricool todavía no está verificada.** uuid estable: `-4821449865259040422` |
+| 2026-10-26 20:41 | 2026-W44 | `instagram/2026-10-26-carrusel-02/` | Carrusel (5) | Posicionamiento | «Tu piel cambia»: pre-lanzamiento de ZAVE Anti-Age | Publicada | 407275061 (uuid -1273399266196762934) | **Publicada por Metricool con autoPublish: true** (primera autopublicación verificada en @zave_ar). https://www.instagram.com/p/De-fNyzCOjV/ . Marcada como contenido generado con IA |
 
 ## Ficha detallada: 2026-10-19-carrusel-01 (referencia)
 
