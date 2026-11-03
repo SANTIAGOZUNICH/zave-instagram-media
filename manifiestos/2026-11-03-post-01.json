@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-03-post-01",
+  "formato": "post",
+  "estado": "Publicada",
+  "tema": "ZAVE Anti-Age prelanzamiento: 50% OFF exclusivo para registrados (creatividad base de la campaña paga)",
+  "publicacion": {
+    "modo": "Metricool autoPublish true, orden directa del dueño; creada 2026-11-03 20:25, publicada 20:28 (hora de Buenos Aires)",
+    "url": "https://www.instagram.com/p/DfTD_-6iZ1F/",
+    "isAiGenerated": true
+  },
+  "imagenes": [
+    {
+      "orden": 1,
+      "archivo": "01-anti-age-50off-registrados.png",
+      "url": "https://zave-instagram-media.vercel.app/instagram/2026-11-03-post-01/01-anti-age-50off-registrados.png",
+      "ancho": 1080,
+      "alto": 1350,
+      "sha256": "81e8cea4611769fb670404ef9a7938c71be4971d1a63f3733b2ec8a5b909368b"
+    }
+  ],
+  "metricool": {
+    "blogId": 7410898,
+    "postId": 415913812,
+    "uuid": "-3202499183023141345",
+    "estadoFinal": "PUBLISHED",
+    "draft": false,
+    "autoPublish": true
+  }
+}
